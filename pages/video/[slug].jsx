@@ -35,7 +35,7 @@ const VideoDetails = ({ video }) => {
           <button
             className="video-overlay"
             onClick={() => {
-              changeToSeen(video.slug);
+              //  changeToSeen(video.slug);
               //watching ? setWatching(false) : setWatching(true);
               setWatching(!watching);
             }}
