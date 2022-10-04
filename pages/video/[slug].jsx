@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import { getVideoDetailsData } from "../../services";
 
-const changeToSeen = async (slug) => {
-  await fetch("/api/changeToSeen", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({ slug }),
-  });
-};
+//const changeToSeen = async (slug) => {
+//  await fetch("/api/changeToSeen", {
+//    method: "POST",
+//    headers: {
+//      "Content-Type": "application/json",
+//    },
+//    body: JSON.stringify({ slug }),
+//  });
+//};
 
 const VideoDetails = ({ video }) => {
   console.log(video);
